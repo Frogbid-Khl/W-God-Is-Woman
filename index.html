@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from godisawoman.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 May 2022 11:27:18 GMT -->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/boxicons%40latest/css/boxicons.min.css" />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles8525.css?version=1.0.0" />
+    <link rel="stylesheet" href="assets/css/other65a8.css?version=1.0.2" />
+
+    <title>God is a Woman</title>
+  </head>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <!--<img src="assets/img/logo.png" alt="" class="nav__logo-img">-->
+          GOD IS A WOMAN
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#team" class="nav__link">Team</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#roadmap" class="nav__link">Timeline</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#faq" class="nav__link">FAQ</a>
+            </li>
+
+            <li>
+              <button class="button button--ghost" data-state="connect" id="connectWalletButton">Connect Wallet</button>
+            </li>
+
+            <li class="nav__social">
+              <a href="https://discord.gg/PatF68fmJt" target="_blank" class="nav__social">
+                <img src="assets/img/discord-icon.png" alt="Open Discord" class="nav__social-img" />
+              </a>
+              <a href="https://twitter.com/godisawomannft" target="_blank" class="nav__social">
+                <img src="assets/img/twitter-icon.png" alt="Open Twitter" class="nav__social-img" />
+              </a>
+              <a href="https://opensea.io/collection/godisawoman" target="_blank" class="nav__social">
+                <img src="assets/img/opensea-icon.png" alt="Open Opensea" class="nav__social-img" />
+              </a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== ABOUT ====================-->
+      <section class="home container" id="home">
+        <div class="swiper home-swiper">
+          <div class="swiper-wrapper">
+            <!-- HOME SLIDER 1 -->
+            <div class="home__content grid">
+              <div class="home__group">
+                <img src="assets/img/mint-image.png" alt="" class="home__img" />
+                <div class="home__indicator"></div>
+
+                <div class="home__details-img">
+                  <h4 class="home__details-title">888 Unique NFT's</h4>
+                  <span class="home__details-subtitle">Mint yours!</span>
+                </div>
+              </div>
+
+              <div class="home__data">
+                <h2 class="home__title">Release</h2>
+                <h3>The public sale is now active. Go ahead and mint a beautiful woman!</h3>
+                <p>&nbsp;</p>
+                <p class="home__description" id="totalMinted" style="display: none">
+                  <span id="totalMintedNum">_</span>/888 minted
+                </p>
+                <p class="button--link button--flex" id="metaMaskWarning" style="display: none; color: red">
+                  Please, install the MetaMask extension in your desktop browser
+                </p>
+                <div id="mintSection">
+                  <h3>MINT NOW! 0.06 ETH each.</h3>
+                  <div class="mintInputGroup">
+                    <select name="nftQt" id="nftQt" placeholder="Qt">
+                      <option value="1" selected>1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
+                    <button type="button" class="button disabled" id="mintButton">MINT</button>
+                  </div>
+                  <div></div>
+                  <div id="mintMessageWrapper"></div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== Home ====================-->
+      <section class="section about" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">GOD IS A WOMAN</h2>
+            <p class="about__description">
+              A Genesis Collection inspired by 3 sisters who are totally different but have the same passion for
+              drawing. This project is a tribute to all the women who since the beginning of time have fought to be
+              themselves. <br /><br />
+              888 randomly generated and unique God is a Women NFT's living on the Ethereum blockchain.
+            </p>
+            <a href="#story" class="button">Learn More</a>
+            <br /><br />
+          </div>
+          <video width="1000" class="about__img" autoplay muted loop>
+            <source src="assets/img/animation2.webm" type="video/webm" />
+          </video>
+          <img src="assets/img/mobile-img.png" class="about__img2" alt="" />
+        </div>
+      </section>
+
+      <!--==================== Roadmap ====================-->
+      <section class="section" id="roadmap">
+        <h2 class="section__title">Mint Timeline</h2>
+        <ul class="timeline">
+          <!-- Item 1 -->
+          <li>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="flag">15%</span>
+                <span class="time-wrapper"><span class="time">Presale!</span></span>
+              </div>
+              <div class="desc">25 NFTs Presale for Whitelist Members.</div>
+            </div>
+          </li>
+
+          <!-- Item 2 -->
+          <li>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">35%</span>
+                <span class="time-wrapper"><span class="time">First Giveaway!</span></span>
+              </div>
+              <div class="desc">5 GIW NFT Giveaways for the 25-300 public sale minters.</div>
+            </div>
+          </li>
+
+          <!-- Item 3 -->
+          <li>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="flag">50%</span>
+                <span class="time-wrapper"><span class="time">Community!</span></span>
+              </div>
+              <div class="desc">
+                The God is a Woman community wallet will open! <br />
+                <br />5% of sales will be added to the community wallet!
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 4 -->
+          <!--<li>
+                <div class="direction-r">
+                    <div class="flag-wrapper">
+                        <span class="flag">75%</span>
+                        <span class="time-wrapper"><span class="time">Donation Time!</span></span>
+                    </div>
+                    <div class="desc">$25,000 will be added to charity fund for later community’s choice donations!
+                        <br><br>
+                        5 GIW NFT Giveaways amongst the 5000-7499 minters.
+                    </div>
+                </div>
+            </li>
+-->
+          <!-- Item 5 -->
+          <li>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">100%</span>
+                <span class="time-wrapper"><span class="time">Future of GIAW</span></span>
+              </div>
+              <div class="desc">
+                2.5% of sales added to community wallet for a total of 7.5%! <br /><br />
+                5 GIW NFT giveaway amongst last 100 minters.
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!--==================== Team ====================-->
+      <section class="section category" id="team">
+        <h3 class="section__title">Creators</h3>
+
+        <div class="team__container container grid">
+          <div class="team__member">
+            <img src="assets/img/pfp7.png" alt="" class="team__img" />
+            <h3 class="team__title">Moniquette</h3>
+            <p>Artist</p>
+            <a href="https://twitter.com/moniquettept" target="_blank"
+              ><img alt="Twitter" src="assets/img/twitter-icon.png"
+            /></a>
+          </div>
+          <div class="team__member">
+            <img src="assets/img/pfp6.png" alt="" class="team__img" />
+            <h3 class="team__title">Una</h3>
+            <p>Artist</p>
+            <a href="https://twitter.com/BrunaCristinaL" target="_blank"
+              ><img alt="Twitter" src="assets/img/twitter-icon.png"
+            /></a>
+          </div>
+          <div class="team__member">
+            <img src="assets/img/pfp8.png" alt="" class="team__img" />
+            <h3 class="team__title">Bia</h3>
+            <p>Artist</p>
+            <a href="https://twitter.com/AnnaBixx" target="_blank"
+              ><img alt="Twitter" src="assets/img/twitter-icon.png"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section category">
+        <h3 class="section__title">Team</h3>
+
+        <div class="team__container container grid">
+          <div class="team__member">
+            <img src="assets/img/pfp3.png" alt="" class="team__img" />
+            <h3 class="team__title">Vault</h3>
+            <p>Coordinator</p>
+            <a href="https://twitter.com/CryptoVault" target="_blank"
+              ><img alt="Twitter" src="assets/img/twitter-icon.png"
+            /></a>
+          </div>
+          <div class="team__member">
+            <img src="assets/img/pfp2.png" alt="" class="team__img" />
+            <h3 class="team__title">Goldie</h3>
+            <p>Art & Web Design</p>
+            <a href="https://twitter.com/Goldie_nfts" target="_blank"
+              ><img alt="Twitter" src="assets/img/twitter-icon.png"
+            /></a>
+          </div>
+          <div class="team__member">
+            <img src="assets/img/pfp5.png" alt="" class="team__img" />
+            <h3 class="team__title">Caje</h3>
+            <p>Art & Design</p>
+          </div>
+          <div class="team__member">
+            <img src="assets/img/pfp10.png" alt="" class="team__img" />
+            <h3 class="team__title">SilentW</h3>
+            <p>Core Dev</p>
+            <a href="https://twitter.com/thesilentw" target="_blank"
+              ><img alt="Twitter" src="assets/img/twitter-icon.png"
+            /></a>
+          </div>
+          <div class="team__member">
+            <img src="assets/img/pfp9.png" alt="" class="team__img" />
+            <h3 class="team__title">Harley Quinn</h3>
+            <p>Smart Contract Wizard</p>
+            <a href="https://twitter.com/HarleyGIW" target="_blank"
+              ><img alt="Twitter" src="assets/img/twitter-icon.png"
+            /></a>
+          </div>
+          <div class="team__member">
+            <img src="assets/img/pfp4.png" alt="" class="team__img" />
+            <h3 class="team__title">Stumoonarte</h3>
+            <p>Marketing & Strategy</p>
+            <a href="https://twitter.com/stumoonarte" target="_blank"
+              ><img alt="Twitter" src="assets/img/twitter-icon.png"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== OUR STORY ====================-->
+      <section class="section story" id="story">
+        <div class="story__container">
+          <h2 class="section__title">Our Story</h2>
+          <p class="story__description"></p>
+          <h3>GOD IS A WOMAN</h3>
+          <br /><br />
+          <p style="font-size: 1.2rem">
+            This collection is a creation inspired by 3 sisters who are totally different but have the same passion for
+            drawing. We're moving forward with this women-led project as we strongly believe that the world of NFTs is
+            the future.
+            <br /><br />
+            With completely unique experiences, styles and perspectives, we wished to be mirrored in this series, also
+            adding characteristics of all women.
+            <br /><br />They appear in sunglasses as a reference to where we were born, the beautiful country of
+            Portugal, where the sun shines 300 days a year. This project is a tribute to all the women who since the
+            beginning of time have fought to be themselves. We want to remind you that we are your mothers, sisters,
+            wives and daughters. Let's celebrate women! <br /><br />
+            We hope you treasure our collection as much as we do.
+          </p>
+        </div>
+      </section>
+
+      <!--==================== FAQ ====================-->
+      <section class="faq" id="faq">
+        <h2 class="section__title">FAQ</h2>
+
+        <div class="container">
+          <div class="accordion">
+            <div class="accordion-item" id="question1">
+              <a class="accordion-link" href="#question1">
+                <div class="flex">
+                  <h3>What’s an NFT?</h3>
+                </div>
+                <i class="icon ion-md-arrow-forward"></i>
+                <i class="icon ion-md-arrow-down"></i>
+              </a>
+              <div class="answer">
+                <p>
+                  An NFT stands for “Non-fungible token” meaning it is a unique, one-of-a-kind digital item that users
+                  can buy, own, and trade on the blockchain. An NFT can be anything digital such as digital art,
+                  photography, music, and even contracts. They are bought and sold using cryptocurrency such as Ethereum
+                  after they are minted, which will reveal the individual traits of your NFT (if it is part of a
+                  generative project like ETHEREALS). “Generative” means that the art is generated by an algorithm that
+                  combines predetermined traits based on rarity. Rarity dictates the value of the NFT, not unlike other
+                  collectibles such as baseball cards.
+                </p>
+              </div>
+              <hr />
+            </div>
+            <div class="accordion-item" id="question2">
+              <a class="accordion-link" href="#question2">
+                <div class="flex">
+                  <h3>What Does "Minting" Mean?</h3>
+                </div>
+                <i class="icon ion-md-arrow-forward"></i>
+                <i class="icon ion-md-arrow-down"></i>
+              </a>
+              <div class="answer">
+                <p>
+                  Minting an NFT is how your digital art becomes a part of the Ethereum blockchain–a public ledger that
+                  is unchangeable and tamper-proof. Similar to the way that metal coins are minted and added into
+                  circulation, NFTs are also tokens that get “minted” once they are created. Your digital artwork is
+                  represented as an NFT so it can then be purchased and traded in the market and digitally tracked as it
+                  is resold or collected again in the future.
+                </p>
+              </div>
+              <hr />
+            </div>
+            <div class="accordion-item" id="question3">
+              <a class="accordion-link" href="#question3">
+                <div class="flex">
+                  <h3>What Is Blockchain Technology?</h3>
+                </div>
+                <i class="icon ion-md-arrow-forward"></i>
+                <i class="icon ion-md-arrow-down"></i>
+              </a>
+              <div class="answer">
+                <p>
+                  Blockchain technology is most simply defined as a decentralized, distributed ledger that records the
+                  provenance of a digital asset. By inherent design, the data on a blockchain is unable to be modified
+                  unlike many other digital forms of ledgers. This ensures that the NFT art you purchase is traceable
+                  and authentic. It is being utilized by a number of industries including healthcare and finance due to
+                  the security that it offers.
+                </p>
+              </div>
+              <hr />
+            </div>
+            <div class="accordion-item" id="question4">
+              <a class="accordion-link" href="#question4">
+                <div class="flex">
+                  <h3>What happens after I purchase a God is a Woman?</h3>
+                </div>
+                <i class="icon ion-md-arrow-forward"></i>
+                <i class="icon ion-md-arrow-down"></i>
+              </a>
+              <div class="answer">
+                <p>
+                  When you purchase, a randomly generated God is a Woman NFT will be minted on the Ethereum blockchain
+                  and sent to your MetaMask wallet.
+                </p>
+              </div>
+              <hr />
+            </div>
+            <div class="accordion-item" id="question5">
+              <a class="accordion-link" href="#question5">
+                <div class="flex">
+                  <h3>What can I do with my God is a Woman?</h3>
+                </div>
+                <i class="icon ion-md-arrow-forward"></i>
+                <i class="icon ion-md-arrow-down"></i>
+              </a>
+              <div class="answer">
+                <p>
+                  After you have minted your God is a Woman NFT, you will be able to see your randomly generated NFT in
+                  a secondary marketplace, where you have the ability to trade your NFTs. Being a owner of a God is a
+                  Woman NFT means that you have all the intellectual property of your randomly generated God is a Woman
+                  NFT, this means you can do your own merch with that specific NFT.
+                </p>
+              </div>
+              <hr />
+            </div>
+            <div class="accordion-item" id="question6">
+              <a class="accordion-link" href="#question6">
+                <div>
+                  <h3>Why should you get a God is a Woman?</h3>
+                </div>
+                <i class="icon ion-md-arrow-forward"></i>
+                <i class="icon ion-md-arrow-down"></i>
+              </a>
+              <div class="answer">
+                <p>
+                  This project is a tribute to all the women who since the beginning of time have fought to be
+                  themselves. With this project we aim to achieve more awareness to all women rights and gender
+                  equality.
+                </p>
+              </div>
+              <hr />
+            </div>
+            <div class="accordion-item" id="question7">
+              <a class="accordion-link" href="#question7">
+                <div>
+                  <h3>What is the mint price?</h3>
+                </div>
+                <i class="icon ion-md-arrow-forward"></i>
+                <i class="icon ion-md-arrow-down"></i>
+              </a>
+              <div class="answer">
+                <p>
+                  This project will have a whitelist pre-sale period of 0.05 Ethereum for each mint and a 0.06 Ethereum
+                  cost for the public sale.
+                </p>
+              </div>
+              <hr />
+            </div>
+            <div class="accordion-item" id="question8">
+              <a class="accordion-link" href="#question8">
+                <div>
+                  <h3>Have more questions?</h3>
+                </div>
+                <i class="icon ion-md-arrow-forward"></i>
+                <i class="icon ion-md-arrow-down"></i>
+              </a>
+              <div class="answer">
+                <p>
+                  If you have more questions feel free to join either our
+                  <a style="color: rgb(255, 217, 0)" href="https://discord.gg/PatF68fmJt" target="_blank">discord</a> or
+                  <a style="color: rgb(255, 217, 0)" href="https://twitter.com/godisawoman_nft" target="_blank"
+                    >twitter</a
+                  >
+                  there, one of our mods will be able to assist you with any further questions.
+                </p>
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <div class="footer__description">
+            <a
+              href="https://etherscan.io/address/0xf345c83767ac38474561aef16039f17339b55917"
+              target="_blank"
+              class="smart_contract"
+              >Smart Contract</a
+            >
+          </div>
+          <div class="footer__social">
+            <a href="https://discord.gg/PatF68fmJt" target="_blank" class="nav__social">
+              <img src="assets/img/discord-icon.png" alt="Open Discord" class="nav__social-img" />
+            </a>
+            <a href="https://twitter.com/godisawoman_nft" target="_blank" class="nav__social">
+              <img src="assets/img/twitter-icon.png" alt="Open Twitter" class="nav__social-img" />
+            </a>
+            <a href="#" target="_blank" class="nav__social">
+              <img src="assets/img/opensea-icon.png" alt="Open Opensea" class="nav__social-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <span class="footer__copy">&#169; Box Labs. All rigths reserved</span>
+
+      <img src="assets/img/footer1_img.png" alt="" class="footer__img-one" />
+      <img src="assets/img/footer2_img.png" alt="" class="footer__img-two" />
+    </footer>
+
+    <script>
+      // Mobile browser
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        document.getElementById('totalMinted').style.display = 'none';
+        document.getElementById('metaMaskWarning').style.display = 'block';
+      }
+    </script>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main8525.js?version=1.0.0"></script>
+
+    <!--=============== MINT JS ===============-->
+    <script src="assets/js/web3.min.js"></script>
+    <script src="assets/js/metamask-onboarding.bundle.js"></script>
+    <script src="assets/js/abi8525.js?version=1.0.0"></script>
+    <script src="assets/js/merkleMapping8525.js?version=1.0.0"></script>
+    <script src="assets/js/mint1b07.js?version=1.0.4"></script>
+  </body>
+
+<!-- Mirrored from godisawoman.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 May 2022 11:27:40 GMT -->
+</html>

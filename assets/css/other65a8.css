@@ -1,0 +1,42 @@
+#mintSection {
+  display: none;
+  margin-top: 50px;
+}
+
+.mintInputGroup {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin-top: 6px;
+  border-radius: 7rem;
+  background: #7d1c75;
+}
+
+#nftQt {
+  width: 50px;
+  padding: 6px 0 6px 3px;
+  background: #7d1c75;
+  color: white;
+  font-size: 18px;
+  border: none;
+  margin-right: 0;
+}
+
+#mintMessageWrapper {
+  display: none;
+  margin-top: 6px;
+  color: white;
+}
+
+#mintMessageWrapper a {
+  color: white;
+}
+
+#mintMessageWrapper a:hover {
+  color: white;
+}
+
+#mintButton.disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
